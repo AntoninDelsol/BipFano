@@ -4,7 +4,7 @@ import java.lang.Thread;
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("AnotherFano - V1.0");
+		System.out.println("AnotherFano - V1.1");
 		
 		Serveur serv = Serveur.getInstance();
 		
