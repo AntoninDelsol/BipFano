@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Fano {
 	private int number;
+	
+
 	private int lapTime;
 	private ArrayList<Utilisateur> abo = new ArrayList<Utilisateur>();
 	
@@ -18,7 +20,12 @@ public class Fano {
 	public void setLapTime(int lapTime) {
 		this.lapTime = lapTime;
 	}
-	
+	public int getNumber() {
+		return number;
+	}
+	public void addUser(Utilisateur user) {
+		abo.add(user);
+	}
 	//Notifira tous les utilisateurs aboonés
 	public void notifyall() {
 		for (Utilisateur u : abo) {
