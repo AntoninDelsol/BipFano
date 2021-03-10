@@ -12,7 +12,7 @@ public class Serveur {
 	 }
 	 
 	 //Singleton
-	 public Serveur getInstance() {
+	 public static Serveur getInstance() {
 		 if (serv == null) {
 			 serv= new Serveur();
 		 }
