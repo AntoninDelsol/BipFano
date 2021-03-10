@@ -4,7 +4,8 @@ import java.lang.Thread;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("AnotherFano - V1.0");
+		
 		Serveur serv = Serveur.getInstance();
 		
 		Fano fano46 = serv.registerFano(46);
